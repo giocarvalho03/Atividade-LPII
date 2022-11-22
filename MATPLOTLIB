@@ -1,0 +1,36 @@
+# Importando a biblioteca
+import matplotlib
+
+# Submodulo pyplot
+import matplotlib.pyplot as plt
+
+# Gráfico em linha
+# Importando a biblioteca
+import matplotlib
+
+# Submodulo pyplot
+import matplotlib.pyplot as plt
+
+# Gráfico sem linha
+import numpy as np
+xpoints = np.array([1, 8])
+ypoints = np.array([3, 10])
+
+plt.plot(xpoints, ypoints, 'o')
+plt.show() 
+
+# Gráfico com multiplos pontos
+xpoints = np.array([1, 2, 6, 8])
+ypoints = np.array([3, 8, 1, 10])
+
+plt.plot(xpoints, ypoints)
+plt.show()
+
+# Gráfico em barra
+from matplotlib import pyplot as plt
+
+x = [5, 2, 9, 4, 7]
+y = [10, 5, 8, 4, 2]
+
+plt.bar (x, y)
+plt.show()
